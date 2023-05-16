@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,9 @@
       <updated>1683529511915</updated>
       <workItem from="1683529546467" duration="3749000" />
       <workItem from="1683713854052" duration="1167000" />
-      <workItem from="1683717829787" duration="2365000" />
+      <workItem from="1683717829787" duration="3042000" />
+      <workItem from="1683721894324" duration="20000" />
+      <workItem from="1684232262927" duration="4425000" />
     </task>
     <servers />
   </component>
