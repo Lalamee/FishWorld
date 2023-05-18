@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -29,7 +26,8 @@ public class Spawner : MonoBehaviour
         int spawnPointNumber = Random.Range(0, _spawnAreas.Length);
         Vector3 spawnPosition = GetRandomPosition(spawnPointNumber);
 
-        Instantiate(_fishPrefab, spawnPosition, Quaternion.identity);
+        Instantiate(_fishPrefab, spawnPosition, _spawnAreas[spawnPointNumber].rotation);
+        FishMover fishMovement = _fishPrefab.GetComponent<FishMover>();
     }
 
     private Vector3 GetRandomPosition(int spawnPointNumber)
