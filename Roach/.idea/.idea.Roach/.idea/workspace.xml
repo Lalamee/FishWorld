@@ -8,17 +8,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoatTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BoatTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FishTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FishTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Boat Color.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Boat Color.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatInput.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatInput.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatMover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/BoatMover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Fish.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Fish.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/FishLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/FishLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/FishMover.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/FishMover.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Spawn Points.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Spawn Points.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/PlayerLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/PlayerLevel.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -29,8 +30,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Fish/Fish.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,6 +101,8 @@
       <workItem from="1684344228345" duration="782000" />
       <workItem from="1684436772195" duration="3119000" />
       <workItem from="1684589237066" duration="3104000" />
+      <workItem from="1684776607073" duration="23000" />
+      <workItem from="1685028648545" duration="7667000" />
     </task>
     <servers />
   </component>
