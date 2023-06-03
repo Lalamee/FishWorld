@@ -52,12 +52,18 @@ public class Hook : MonoBehaviour
                 
                 _isReturning = false;
                 _returnTimer = 0f;
-
-                if (_hookedObject != null)
-                {
-                    Destroy(_hookedObject);
-                }
+                
+                Destroy(_hookedObject);
             }
+        }
+    }
+    private void ChangeHookState()
+    {
+        if (_isMoving && !_isReturning)
+        {
+            _targetPosition = transform.position;
+            _isMoving = false;
+            _isReturning = true;
         }
     }
 
@@ -74,7 +80,7 @@ public class Hook : MonoBehaviour
 
             if (_fishMover != null)
             {
-                _fishMover.StartMoving(_initialPosition, _speed);
+                _fishMover.StartMoving(_initialPosition ,_returnTime, _returnTimer);
             }
         }
     }
@@ -82,17 +88,6 @@ public class Hook : MonoBehaviour
     private IEnumerator ReturnTimerCoroutine()
     {
         yield return new WaitForSeconds(_returnTime);
-        StartReturnTimer();
-    }
-
-    
-    private void StartReturnTimer()
-    {
-        if (_isMoving && !_isReturning)
-        {
-            _targetPosition = transform.position;
-            _isMoving = false;
-            _isReturning = true;
-        }
+        ChangeHookState();
     }
 }
