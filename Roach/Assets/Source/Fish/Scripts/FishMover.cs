@@ -20,6 +20,11 @@ public class FishMover : MonoBehaviour
 
     private void Update()
     {
+        Move();
+    }
+
+    private void Move()
+    {
         float scaledMoveSpeed = _moveSpeed * Time.deltaTime;
         Vector3 moveDirection = new Vector3(scaledMoveSpeed * _direction, 0, 0);
         

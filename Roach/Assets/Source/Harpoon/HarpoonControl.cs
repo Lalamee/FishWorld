@@ -3,8 +3,10 @@ using UnityEngine;
 
 public class HarpoonControl : MonoBehaviour
 {
+    [SerializeField] private float _rotationSpeed;
+    
     private HarpoonInput _input;
-    private float _rotationSpeed = 50f;
+    private bool _isMovementLocked;
 
     private void Awake()
     {
@@ -21,18 +23,25 @@ public class HarpoonControl : MonoBehaviour
         _input.Disable();
     }
 
-    private void Update()
+    private void Start()
     {
-        DrowRay();
-        
-        if(Input.GetMouseButton(0))
-            RotateObject();
+        _isMovementLocked = false;
     }
 
-    private void DrowRay()
+    private void Update()
     {
-        Ray ray = new Ray(transform.position, transform.forward);
-        Debug.DrawRay(transform.position, transform.forward * 100f, Color.yellow);
+        if(Input.GetMouseButton(0) && !_isMovementLocked)
+            RotateObject();
+    }
+    
+    public void LockMovement()
+    {
+        _isMovementLocked = true;
+    }
+
+    public void UnlockMovement()
+    {
+        _isMovementLocked = false;
     }
 
     private void RotateObject()
@@ -51,4 +60,6 @@ public class HarpoonControl : MonoBehaviour
         float clampedRotationY = Mathf.Clamp(newRotationY, -60f, 60f);
         transform.rotation = Quaternion.Euler(currentRotation.x, clampedRotationY, currentRotation.z);
     }
+
+
 }

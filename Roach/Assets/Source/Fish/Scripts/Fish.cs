@@ -4,9 +4,9 @@ using Random = UnityEngine.Random;
 
 public class Fish : MonoBehaviour
 {
-    private int _level;
-
     public event UnityAction<int> LevelSet; 
+    
+    private int _level;
 
     private void Start()
     {
