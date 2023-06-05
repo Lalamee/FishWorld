@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 6307513055079623249}
   - component: {fileID: 6307513055079623248}
   m_Layer: 0
-  m_Name: Spawn Points
+  m_Name: Fish Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -141,4 +141,4 @@ MonoBehaviour:
   - {fileID: 6307513054964380171}
   - {fileID: 6307513054925107449}
   _secondsBetweenSpawn: 1
-  _spawnRange: 2.5
+  _spawnRange: 3

@@ -9,8 +9,13 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _level = 0;
+        _level = 1;
         LevelChange?.Invoke(_level);
     }
-    
+
+    public void CatchFish(int fishLevel)
+    {
+        _level += fishLevel;
+        LevelChange?.Invoke(10);
+    }
 }

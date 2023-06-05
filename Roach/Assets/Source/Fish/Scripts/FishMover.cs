@@ -10,7 +10,7 @@ public class FishMover : MonoBehaviour
     private Vector3 _initialOffset;
     private int _direction;
 
-    public void Start()
+    private void Start()
     {
         if (_player.position.x < transform.position.x)
             _direction = -1;

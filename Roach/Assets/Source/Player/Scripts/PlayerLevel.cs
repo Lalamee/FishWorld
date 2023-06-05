@@ -19,6 +19,6 @@ public class PlayerLevel : MonoBehaviour
 
     private void OnLevelChange(int level)
     {
-        _level.text = level.ToString() + " Level";
+        _level.text = "Lvl " + level.ToString();
     }
 }

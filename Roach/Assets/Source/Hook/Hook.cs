@@ -11,7 +11,6 @@ public class Hook : MonoBehaviour
     private Vector3 _initialPosition;
     private Vector3 _targetPosition;
     private GameObject _hookedObject;
-    private HookFishMover _fishMover;
     private bool _isMoving;
     private bool _isReturning;
     private float _returnTimer;
@@ -37,26 +36,35 @@ public class Hook : MonoBehaviour
 
         if (_isMoving)
         {
-            transform.Translate(Vector3.forward * _speed * Time.deltaTime);
+            MoveHook();
         }
 
         if (_isReturning)
         {
-            _returnTimer += Time.deltaTime;
-            float lerpProgress = _returnTimer / _returnTime;
-            transform.position = Vector3.Lerp(_targetPosition, _initialPosition, lerpProgress);
-
-            if (lerpProgress >= 1f)
-            {
-                _harpoonControl.UnlockMovement();
-                
-                _isReturning = false;
-                _returnTimer = 0f;
-                
-                Destroy(_hookedObject);
-            }
+            ReturnHook();
         }
     }
+
+    private void MoveHook()
+    {
+        transform.Translate(Vector3.forward * _speed * Time.deltaTime);
+    }
+
+    private void ReturnHook()
+    {
+        _returnTimer += Time.deltaTime;
+        float lerpProgress = _returnTimer / _returnTime;
+        transform.position = Vector3.Lerp(_targetPosition, _initialPosition, lerpProgress);
+
+        if (lerpProgress >= 1f)
+        {
+            _harpoonControl.UnlockMovement();
+            
+            _isReturning = false;
+            _returnTimer = 0f;
+        }
+    }
+
     private void ChangeHookState()
     {
         if (_isMoving && !_isReturning)
@@ -69,19 +77,15 @@ public class Hook : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!_isReturning)
+        _hookedObject = collision.gameObject;
+        
+        if (!_isReturning && _hookedObject.TryGetComponent(out TrappedFishMover trappedFishMover))
         {
             _targetPosition = transform.position;
             _isMoving = false;
             _isReturning = true;
 
-            _hookedObject = collision.gameObject;
-            _fishMover = _hookedObject.GetComponent<HookFishMover>();
-
-            if (_fishMover != null)
-            {
-                _fishMover.StartMoving(_initialPosition ,_returnTime, _returnTimer);
-            }
+            trappedFishMover.StartMoving(_initialPosition, _returnTime, _returnTimer);
         }
     }
 

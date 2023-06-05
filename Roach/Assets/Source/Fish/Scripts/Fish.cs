@@ -4,13 +4,12 @@ using Random = UnityEngine.Random;
 
 public class Fish : MonoBehaviour
 {
-    public event UnityAction<int> LevelSet; 
-    
-    private int _level;
+    public int Level { get; private set; }
+    public event UnityAction<int> LevelSet;
 
     private void Start()
     {
-        _level = Random.Range(1, 10);
-        LevelSet?.Invoke(_level);
+        Level = Random.Range(1, 10);
+        LevelSet?.Invoke(Level);
     }
 }
