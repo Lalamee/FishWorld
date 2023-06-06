@@ -10,7 +10,7 @@ public class Hook : MonoBehaviour
 
     private Vector3 _initialPosition;
     private Vector3 _targetPosition;
-    private GameObject _hookedObject;
+    private Fish _hookedObject;
     private bool _isMoving;
     private bool _isReturning;
     private float _returnTimer;
@@ -77,15 +77,12 @@ public class Hook : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        _hookedObject = collision.gameObject;
-        
-        if (!_isReturning && _hookedObject.TryGetComponent(out TrappedFishMover trappedFishMover))
+        if (!_isReturning && collision.gameObject.TryGetComponent(out TrappedFish _trappedFish))
         {
             _targetPosition = transform.position;
             _isMoving = false;
             _isReturning = true;
-
-            trappedFishMover.StartMoving(_initialPosition, _returnTime, _returnTimer);
+            _trappedFish.StartMoving(_initialPosition, _returnTime, _returnTimer);
         }
     }
 

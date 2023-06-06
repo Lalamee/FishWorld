@@ -16,6 +16,14 @@ public class Player : MonoBehaviour
     public void CatchFish(int fishLevel)
     {
         _level += fishLevel;
-        LevelChange?.Invoke(10);
+        LevelChange?.Invoke(_level);
+    }
+
+    public bool IsPlayerLevelMore(int fishLevel)
+    {
+        if (_level < fishLevel)
+            return false;
+        
+        return true;
     }
 }

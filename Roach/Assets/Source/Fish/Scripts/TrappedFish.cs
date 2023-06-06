@@ -3,25 +3,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrappedFishMover : MonoBehaviour
+public class TrappedFish : MonoBehaviour
 {
-    [SerializeField] private Player _player;
-    
+
     private Vector3 _targetPosition;
     private Vector3 _finishPosition;
-    private Fish _fish;
+    private FishLevelTransmitter _fishLevelTransmitter;
     private FishMover _fishMover;
+    private bool _isLevelChange;
     private bool _isMoving;
     private float _returnTime;
     private float _returnTimer;
-    private int _fishLevel;
 
     private void Start()
     {
-        _fish = GetComponent<Fish>();
+        _fishLevelTransmitter = GetComponent<FishLevelTransmitter>();
         _fishMover = GetComponent<FishMover>();
+        _isLevelChange = false;
         _isMoving = false;
-        _fishLevel = _fish.Level;
+    }
+
+
+    private void Update()
+    {
+        if (_isMoving)
+        {
+            _returnTimer += Time.deltaTime;
+            float lerpProgress = _returnTimer / _returnTime;
+            transform.position = Vector3.Lerp(_targetPosition, _finishPosition, lerpProgress);
+
+            if (lerpProgress >= 0.75 && !_isLevelChange)
+            {
+                _fishLevelTransmitter.TransmitAndDestroy();
+                _isLevelChange = true;
+            }
+        }
     }
 
     public void StartMoving(Vector3 finishPosition,float returnTime, float returnTimer)
@@ -32,21 +48,5 @@ public class TrappedFishMover : MonoBehaviour
         _finishPosition = finishPosition;
         _returnTime = returnTime;
         _returnTimer = returnTimer;
-    }
-
-    private void Update()
-    {
-        if (_isMoving)
-        {
-            _returnTimer += Time.deltaTime;
-            float lerpProgress = _returnTimer / _returnTime;
-            transform.position = Vector3.Lerp(_targetPosition, _finishPosition, lerpProgress);
-            _player.CatchFish(_fishLevel);
-
-            if (lerpProgress >= 0.75)
-            {
-                Destroy(gameObject);
-            }
-        }
     }
 }
