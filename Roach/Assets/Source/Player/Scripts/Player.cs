@@ -4,12 +4,14 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     private int _level;
+    private int _startLevel;
     
     public event UnityAction<int> LevelChange;
 
     private void Start()
     {
         _level = 1;
+        _startLevel = _level;
         LevelChange?.Invoke(_level);
     }
 
@@ -25,5 +27,20 @@ public class Player : MonoBehaviour
             return false;
         
         return true;
+    }
+
+    public int GetLevel()
+    {
+        return _level;
+    }
+
+    public int GetStartLevel()
+    {
+        return _startLevel;
+    }
+
+    public void SetNewStartLevel()
+    {
+        _startLevel = _level;
     }
 }

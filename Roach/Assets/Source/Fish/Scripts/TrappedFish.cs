@@ -1,19 +1,19 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(FishMover))]
+[RequireComponent(typeof(FishLevelTransmitter))]
 public class TrappedFish : MonoBehaviour
 {
 
-    private Vector3 _targetPosition;
-    private Vector3 _finishPosition;
     private FishLevelTransmitter _fishLevelTransmitter;
     private FishMover _fishMover;
+    private Vector3 _targetPosition;
+    private Vector3 _finishPosition;
     private bool _isLevelChange;
     private bool _isMoving;
     private float _returnTime;
     private float _returnTimer;
+    private int _lerpLimit;
 
     private void Start()
     {
@@ -21,6 +21,7 @@ public class TrappedFish : MonoBehaviour
         _fishMover = GetComponent<FishMover>();
         _isLevelChange = false;
         _isMoving = false;
+        _lerpLimit = 1;
     }
 
 
@@ -32,7 +33,7 @@ public class TrappedFish : MonoBehaviour
             float lerpProgress = _returnTimer / _returnTime;
             transform.position = Vector3.Lerp(_targetPosition, _finishPosition, lerpProgress);
 
-            if (lerpProgress >= 0.75 && !_isLevelChange)
+            if (lerpProgress >= _lerpLimit && !_isLevelChange)
             {
                 _fishLevelTransmitter.TransmitAndDestroy();
                 _isLevelChange = true;

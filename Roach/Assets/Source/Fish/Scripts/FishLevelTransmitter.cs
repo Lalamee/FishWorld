@@ -1,18 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Fish))]
 public class FishLevelTransmitter : MonoBehaviour
 {
-    public bool IsCanTransmit { get; private set; }
-    
     private Fish _fish;
     private Player _player;
 
     private void Start()
     {
-        IsCanTransmit = false;
+ 
         _fish = GetComponent<Fish>();
         _player = FindObjectOfType<Player>();
     }

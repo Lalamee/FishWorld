@@ -1,12 +1,12 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
 public class Hook : MonoBehaviour
 {
     [SerializeField] private HarpoonControl _harpoonControl;
-    [SerializeField] private float _speed = 5f;
-    [SerializeField] private float _returnTime = 2f;
+    [SerializeField] private Laser _laser;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _returnTime;
 
     private Vector3 _initialPosition;
     private Vector3 _targetPosition;
@@ -29,6 +29,7 @@ public class Hook : MonoBehaviour
             _initialPosition = transform.position;
             _isMoving = true;
             
+            _laser.OffLaser();
             _harpoonControl.LockMovement();
             
             StartCoroutine(ReturnTimerCoroutine());
@@ -59,7 +60,7 @@ public class Hook : MonoBehaviour
         if (lerpProgress >= 1f)
         {
             _harpoonControl.UnlockMovement();
-            
+            _laser.OnLaser();
             _isReturning = false;
             _returnTimer = 0f;
         }
@@ -83,6 +84,7 @@ public class Hook : MonoBehaviour
             _isMoving = false;
             _isReturning = true;
             _trappedFish.StartMoving(_initialPosition, _returnTime, _returnTimer);
+            _trappedFish.gameObject.GetComponent<Collider>().enabled = false;
         }
     }
 

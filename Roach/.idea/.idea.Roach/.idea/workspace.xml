@@ -6,13 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoatTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BoatTest.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/BoatMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/BoatMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/Fish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/Fish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFishMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFishMover.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevelTransmitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevelTransmitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Hook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Hook.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/AreaForBoat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/AreaForBoat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fishing Zone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fishing Zone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/PointForTurnBoat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/PointForTurnBoat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +39,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevelTransmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Hook/Laser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/PointForTurnBoat.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -105,7 +124,15 @@
       <workItem from="1685834624773" duration="2615000" />
       <workItem from="1685837302129" duration="1202000" />
       <workItem from="1685968607445" duration="5689000" />
-      <workItem from="1686050605201" duration="5701000" />
+      <workItem from="1686050605201" duration="6567000" />
+      <workItem from="1686734845585" duration="5504000" />
+      <workItem from="1686742810308" duration="339000" />
+      <workItem from="1686773715138" duration="1956000" />
+      <workItem from="1686917248257" duration="3029000" />
+      <workItem from="1687096374043" duration="3721000" />
+      <workItem from="1687100219793" duration="1322000" />
+      <workItem from="1687101593725" duration="558000" />
+      <workItem from="1687102197582" duration="2562000" />
     </task>
     <servers />
   </component>

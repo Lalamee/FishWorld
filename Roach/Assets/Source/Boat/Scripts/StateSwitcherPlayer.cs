@@ -1,9 +1,11 @@
-using System;
 using UnityEngine;
 
-public class StateSwitcher : MonoBehaviour
+[RequireComponent(typeof(BoatMover))]
+public class StateSwitcherPlayer : MonoBehaviour
 {
     [SerializeField] private Hook _hook;
+    [SerializeField] private HarpoonControl _harpoonControl;
+    [SerializeField] private Laser _laser;
 
     private BoatMover _boatMover;
 
@@ -18,6 +20,9 @@ public class StateSwitcher : MonoBehaviour
         {
             _boatMover.enabled = false;
             _hook.enabled = true;
+            _laser.enabled = true;
+            _harpoonControl.enabled = true;
+            _areaForBoat.StartSpawnFish();
         }
     }
 }

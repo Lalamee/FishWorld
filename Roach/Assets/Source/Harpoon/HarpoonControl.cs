@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class HarpoonControl : MonoBehaviour
@@ -51,15 +50,18 @@ public class HarpoonControl : MonoBehaviour
         
         Vector3 currentRotation = transform.rotation.eulerAngles;
         float newRotationY = currentRotation.y + rotationY;
+
+        float controlRotation = 180f;
+        float newRotation = 360f;
         
-        if (newRotationY > 180f)
-            newRotationY -= 360f;
-        else if (newRotationY < -180f)
-            newRotationY += 360f;
-        
-        float clampedRotationY = Mathf.Clamp(newRotationY, -60f, 60f);
+        if (newRotationY > controlRotation)
+            newRotationY -= newRotation;
+        else if (newRotationY < -controlRotation)
+            newRotationY += newRotation;
+
+        float limitationClamp = 60f;
+
+        float clampedRotationY = Mathf.Clamp(newRotationY, -limitationClamp, limitationClamp);
         transform.rotation = Quaternion.Euler(currentRotation.x, clampedRotationY, currentRotation.z);
     }
-
-
 }

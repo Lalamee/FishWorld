@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,6 +10,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float _spawnRange;
 
     private float _elapsedTime = 0f;
+    private int _startPoint = 0;
     
     private void Update()
     {
@@ -23,11 +25,12 @@ public class Spawner : MonoBehaviour
 
     private void CreateFishInArea()
     {
-        int spawnPointNumber = Random.Range(0, _spawnAreas.Length);
+        int spawnPointNumber = Random.Range(_startPoint, _spawnAreas.Length);
         Vector3 spawnPosition = GetRandomPosition(spawnPointNumber);
 
-        Instantiate(_fishPrefab, spawnPosition, _spawnAreas[spawnPointNumber].rotation);
-        FishMover fishMovement = _fishPrefab.GetComponent<FishMover>();
+        GameObject fish = Instantiate(_fishPrefab, spawnPosition, _spawnAreas[spawnPointNumber].rotation);
+        fish.transform.parent = _spawnAreas[spawnPointNumber];
+        FishMover fishMovement = fish.GetComponent<FishMover>();
     }
 
     private Vector3 GetRandomPosition(int spawnPointNumber)
