@@ -8,11 +8,11 @@ public class PlayerCountTrappedFish : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private TMP_Text _count;
     
-    private int _needCountFish = 5;
+    private int _needCountFish = 3;
 
     private void Start()
     {
-        _count.text = "0/0";
+        _count.text = "0/" + _needCountFish.ToString();
     }
 
     private void OnEnable()

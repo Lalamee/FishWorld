@@ -6,60 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Camera/CameraFollower.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/Fish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/Fish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Harpoon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonControl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonInput.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/HarpoonInput.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Hook.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Laser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Laser.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/Area For Boat.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/Area For Boat.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/AreaForBoat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Area For Boat/AreaForBoat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Destroy Zone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Destroy Zone/Destroy Zone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Destroy Zone/Destroy Zone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Destroy Zone/DestroyZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Destroy Zone/DestroyZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Fish Spawner.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Fish Spawner.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fish Spawner/Spawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fishing Zone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Fishing Zone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/FishingStoper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/FishingStoper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/FishingZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/FishingZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/Point For Turning Boat.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/Point For Turning Boat.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/PointForTurnBoat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Point For Turning Boat/PointForTurnBoat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Plane/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Plane/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Plane/Plane.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Plane/Plane.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/BoatMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/BoatMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/FishingStoper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/FishingStoper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/PlayerCountTrappedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/PlayerCountTrappedFish.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +113,7 @@
       <workItem from="1687102197582" duration="2562000" />
       <workItem from="1687105047282" duration="530000" />
       <workItem from="1687187694038" duration="6437000" />
+      <workItem from="1687263697426" duration="1250000" />
     </task>
     <servers />
   </component>

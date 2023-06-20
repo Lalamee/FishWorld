@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BoatMover : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 5f;
-    [SerializeField] private float _rotationSpeed = 2f;
+    [SerializeField] private float _moveSpeed = 10f;
+    [SerializeField] private float _rotationSpeed = 4f;
 
     private BoatInput _input;
     private float _zero = 0f;

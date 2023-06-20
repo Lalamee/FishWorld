@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     private int _level;
     private int _startLevel;
     private int _countTrappedFish;
-    
+
     public event UnityAction<int> LevelChange;
     public event UnityAction<int> CountTrappedFishChange;
 
