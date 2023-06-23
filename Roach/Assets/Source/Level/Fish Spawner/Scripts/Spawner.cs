@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,6 +9,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float _secondsBetweenSpawn;
     [SerializeField] private float _spawnRange;
 
+    private float _spawnTime = 0.5f;
     private float _elapsedTime = 0f;
     private int _startPoint = 0;
     

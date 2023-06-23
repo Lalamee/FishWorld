@@ -35,11 +35,11 @@ public class FishingStoper : MonoBehaviour
     {
         _levelFinisher.FinishFishingInZone();
         Destroy(gameObject);
+        _laser.OffRenderer();
         _player.SetNewStartLevel();
         _player.ResetCountTrappedFish();
         _boat.enabled = true;
-        _hook.enabled = false;
         _harpoon.enabled = false;
-        _laser.enabled = false;
+        _hook.enabled = false;
     }
 }

@@ -235,22 +235,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boat
       objectReference: {fileID: 0}
-    - target: {fileID: 2368631460236408555, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2628682622088783609, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
-      propertyPath: _speed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2628682622088783609, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2628682622088783609, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
-      propertyPath: _returnTime
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2964636310261943703, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
       propertyPath: m_Camera
       value: 
@@ -515,10 +499,6 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1432179742}
-    - target: {fileID: 3458363325007227347, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7962394828786934088, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_Name
       value: Fishing Zone
@@ -536,6 +516,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca4be39429e77d4f880473378a1585f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1714697014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598290704477106278, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 3128030986085870956, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1432179742}
+    - target: {fileID: 7962394828786934088, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
+      propertyPath: m_Name
+      value: Fishing Zone (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
 --- !u!1001 &1962340689
 PrefabInstance:
   m_ObjectHideFlags: 0
