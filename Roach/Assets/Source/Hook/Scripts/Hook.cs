@@ -29,7 +29,7 @@ public class Hook : MonoBehaviour
             _initialPosition = transform.position;
             _isMoving = true;
             
-            _laser.OffLaser();
+            _laser.OffRenderer();
             _harpoonControl.LockMovement();
             
             StartCoroutine(ReturnTimerCoroutine());
@@ -60,7 +60,7 @@ public class Hook : MonoBehaviour
         if (lerpProgress >= 1f)
         {
             _harpoonControl.UnlockMovement();
-            _laser.OnLaser();
+            _laser.OnRenderer();
             _isReturning = false;
             _returnTimer = 0f;
         }

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-    private float lineLength = 10f;
     private LineRenderer _laser;
+    private float lineLength = 10f;
 
     private void Start()
     {
@@ -19,12 +19,12 @@ public class Laser : MonoBehaviour
         _laser.SetPosition(1, lineEnd);
     }
 
-    public void OnLaser()
+    public void OnRenderer()
     {
         _laser.enabled = true;
     }
 
-    public void OffLaser()
+    public void OffRenderer()
     {
         _laser.enabled = false;
     }
