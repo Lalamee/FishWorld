@@ -20,7 +20,7 @@ public class StateSwitcherPlayer : MonoBehaviour
         {
             _boatMover.enabled = false;
             _hook.enabled = true;
-            _laser.enabled = true;
+            _laser.OnRenderer();
             _harpoonControl.enabled = true;
             _areaForBoat.StartSpawnFish();
         }

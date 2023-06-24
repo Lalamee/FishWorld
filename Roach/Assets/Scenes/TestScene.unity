@@ -235,10 +235,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boat
       objectReference: {fileID: 0}
+    - target: {fileID: 278487607950215782, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2964636310261943703, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 7414030953344381454, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
 --- !u!1 &705507993
@@ -453,7 +461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0380445
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -529,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -594,7 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.54
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -602,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.85
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 936229406993996768, guid: b626912b315ed4949a6756e0e28aacc1, type: 3}
       propertyPath: m_LocalRotation.w
