@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(FishingZone))]
 public class FishingStoper : MonoBehaviour
 {
+    [SerializeField] private Canvas _arrows;
+    
     private Player _player;
     private BoatMover _boat;
     private HarpoonControl _harpoon;
@@ -41,5 +43,6 @@ public class FishingStoper : MonoBehaviour
         _boat.enabled = true;
         _harpoon.enabled = false;
         _hook.enabled = false;
+        _arrows.enabled = true;
     }
 }

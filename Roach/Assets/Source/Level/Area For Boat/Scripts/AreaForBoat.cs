@@ -4,12 +4,16 @@ public class AreaForBoat : MonoBehaviour
 {
     [SerializeField] private Spawner _spawner;
     [SerializeField] private FishingStoper _fishingStoper;
-    [SerializeField] private PlayerCountTrappedFish _progress;
+    [SerializeField] private CountTrappedFish _progress;
+    [SerializeField] private Collider _leftDestroyZone;
+    [SerializeField] private Collider _rightDestroyZone;
 
     public void StartSpawnFish()
     {
         _spawner.enabled = true;
         _fishingStoper.enabled = true;
         _progress.enabled = true;
+        _leftDestroyZone.enabled = true;
+        _rightDestroyZone.enabled = true;
     }
 }
