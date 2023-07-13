@@ -110,3 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f0d4c75fe0df44fa4baee29d945bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spawner: {fileID: 0}
+  _fishingStoper: {fileID: 0}
+  _progress: {fileID: 0}
+  _leftDestroyZone: {fileID: 0}
+  _rightDestroyZone: {fileID: 0}

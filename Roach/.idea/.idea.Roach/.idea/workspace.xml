@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
+    <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="Add prefabs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Laser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Laser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Boat/Prefabs/Boat.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Prefab/Harpoon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Harpoon/Prefab/Harpoon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Harpoon/Prefab/Harpoon.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Harpoon/Prefab/Harpoon.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Area For Boat/Prefabs/Area For Boat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Area For Boat/Prefabs/Area For Boat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Destroy Zone/Prefabs/Destroy Zone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Destroy Zone/Prefabs/Destroy Zone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Prefabs/Fishing Zone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Prefabs/Fishing Zone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/PlayerCountTrappedFish.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/CountTrappedFish.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Prefabs/Point For Turning Boat.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Prefabs/Point For Turning Boat.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Scripts/PointForTurnBoat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Point For Turning Boat/Scripts/PointForTurnBoat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Player/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Player/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +36,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Boat/Prefabs/Boat.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Boat/Prefabs/Boat.prefab.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Boat/Scripts/StateSwitcherPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Fish/Prefabs/Fish.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Fish/Scripts/FishLevelTransmitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/PlayerCountTrappedFish.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Harpoon/Prefab/Harpoon.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Harpoon/Prefab/Harpoon.prefab.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Hook/Prefabs/Hook.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Hook/Prefabs/Hook.prefab.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Level/Area For Boat/Prefabs/Area For Boat.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Level/Destroy Zone/Prefabs/Destroy Zone.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Level/Fishing Zone/Prefabs/Fishing Zone.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Level/Fishing Zone/Scripts/CountTrappedFish.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Player/Prefabs/Player.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/Assets/Source/Player/Prefabs/Player.prefab.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Torture/FishWorld/Roach/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,7 +147,25 @@
       <workItem from="1687263697426" duration="1843000" />
       <workItem from="1687526927192" duration="5765000" />
       <workItem from="1687634008133" duration="480000" />
+      <workItem from="1687806842339" duration="2915000" />
+      <workItem from="1687987435171" duration="3437000" />
+      <workItem from="1688385286190" duration="2894000" />
+      <workItem from="1688643178863" duration="2746000" />
+      <workItem from="1688740694767" duration="2734000" />
+      <workItem from="1688983120663" duration="4270000" />
+      <workItem from="1689088917633" duration="630000" />
+      <workItem from="1689150030253" duration="3219000" />
+      <workItem from="1689241442925" duration="1618000" />
+      <workItem from="1689275069336" duration="315000" />
     </task>
+    <task id="LOCAL-00001" summary="Add scripts">
+      <created>1689241887479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689241887479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +179,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -136,5 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scripts" />
   </component>
 </project>
