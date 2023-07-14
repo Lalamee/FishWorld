@@ -242,8 +242,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011965867, y: 0.011965867, z: 0.043122962}
-  m_Center: {x: -0.000007969793, y: -0.0000002165325, z: 0.021505434}
+  m_Size: {x: 0.011965867, y: 0.011965867, z: 0.02460237}
+  m_Center: {x: -0.0000079697365, y: -0.00000021636485, z: 0.012245133}
 --- !u!54 &507589468947890094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -274,5 +274,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _harpoonControl: {fileID: 0}
   _laser: {fileID: 6701101541049185505}
-  _speed: 20
-  _returnTime: 0.5

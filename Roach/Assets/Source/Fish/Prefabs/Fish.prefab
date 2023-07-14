@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213146624414397324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.87}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -144,7 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d76b340ea55784fa7507f3c373e579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _boat: {fileID: 214928133427747621, guid: 0acce9d7bbb806741bd34407a44c08b7, type: 3}
   _moveSpeed: 2
 --- !u!114 &-6487671466063197797
 MonoBehaviour:

@@ -5,8 +5,6 @@ public class Hook : MonoBehaviour
 {
     [SerializeField] private HarpoonControl _harpoonControl;
     [SerializeField] private Laser _laser;
-    [SerializeField] private float _speed;
-    [SerializeField] private float _returnTime;
 
     private Vector3 _initialPosition;
     private Vector3 _targetPosition;
@@ -14,12 +12,16 @@ public class Hook : MonoBehaviour
     private bool _isMoving;
     private bool _isReturning;
     private float _returnTimer;
+    private float _returnTime;
+    private float _speed;
 
     private void Start()
     {
         _isMoving = false;
         _isReturning = false;
         _returnTimer = 0f;
+        _speed = 20f;
+        _returnTime = 0.5f;
     }
 
     private void Update()

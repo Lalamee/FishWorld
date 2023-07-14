@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _fishPrefab;
+    [SerializeField] private GameObject[] _fishPrefabs;
     [SerializeField] private Transform[] _spawnAreas;
     [SerializeField] private float _secondsBetweenSpawn;
     [SerializeField] private float _spawnRange;
@@ -28,8 +28,8 @@ public class Spawner : MonoBehaviour
     {
         int spawnPointNumber = Random.Range(_startPoint, _spawnAreas.Length);
         Vector3 spawnPosition = GetRandomPosition(spawnPointNumber);
-
-        GameObject fish = Instantiate(_fishPrefab, spawnPosition, _spawnAreas[spawnPointNumber].rotation);
+        
+        GameObject fish = Instantiate(GetRandomPrefab(_fishPrefabs), spawnPosition, _spawnAreas[spawnPointNumber].rotation);
         fish.transform.parent = _spawnAreas[spawnPointNumber];
         FishMover fishMovement = fish.GetComponent<FishMover>();
     }
@@ -42,5 +42,13 @@ public class Spawner : MonoBehaviour
             Random.Range(_spawnAreas[spawnPointNumber].position.z - _spawnRange, _spawnAreas[spawnPointNumber].position.z + _spawnRange));
 
         return randomPosition;
+    }
+
+    private GameObject GetRandomPrefab(GameObject[] prefabs)
+    {
+        int randomIndex = Random.Range(0, prefabs.Length);
+        GameObject prefab = prefabs[randomIndex];
+
+        return prefab;
     }
 }

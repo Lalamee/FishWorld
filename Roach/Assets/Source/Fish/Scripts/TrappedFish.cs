@@ -11,8 +11,8 @@ public class TrappedFish : MonoBehaviour
     private Vector3 _finishPosition;
     private bool _isLevelChange;
     private bool _isMoving;
-    private float _returnTime;
     private float _returnTimer;
+    private float _returnTime;
     private int _lerpLimit;
 
     private void Start()
@@ -41,7 +41,7 @@ public class TrappedFish : MonoBehaviour
         }
     }
 
-    public void StartMoving(Vector3 finishPosition,float returnTime, float returnTimer)
+    public void StartMoving(Vector3 finishPosition, float returnTime, float returnTimer)
     {
         _fishMover.enabled = false;
         _isMoving = true;
