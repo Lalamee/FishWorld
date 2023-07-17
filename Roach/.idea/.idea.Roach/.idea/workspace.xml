@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Level/Fish Spawner/Prefabs/Fish Spawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Level/Fish Spawner/Prefabs/Fish Spawner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Hook.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Program\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\program\unity\2021.3.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Torture\FishWorld\Roach -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Torture\FishWorld\Roach" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -127,6 +127,7 @@
       <workItem from="1689342771299" duration="2433000" />
       <workItem from="1689346178856" duration="596000" />
       <workItem from="1689508751179" duration="638000" />
+      <workItem from="1689588760083" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="Add scripts">
       <created>1689241887479</created>

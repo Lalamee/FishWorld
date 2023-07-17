@@ -157,6 +157,7 @@ GameObject:
   - component: {fileID: 9011388955377810217}
   - component: {fileID: 6635990814117961359}
   - component: {fileID: 507589468947890094}
+  - component: {fileID: 1600201958176372906}
   - component: {fileID: 7779568360766629630}
   m_Layer: 0
   m_Name: Hook
@@ -242,8 +243,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.011965867, y: 0.011965867, z: 0.02460237}
-  m_Center: {x: -0.0000079697365, y: -0.00000021636485, z: 0.012245133}
+  m_Size: {x: 0.011965867, y: 0.011965867, z: 0.017638454}
+  m_Center: {x: -0.0000079697365, y: -0.00000021636485, z: 0.008763177}
 --- !u!54 &507589468947890094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -260,6 +261,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!138 &1600201958176372906
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353849268496734972}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!114 &7779568360766629630
 MonoBehaviour:
   m_ObjectHideFlags: 0

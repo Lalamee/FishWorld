@@ -6,6 +6,7 @@ public class Hook : MonoBehaviour
     [SerializeField] private HarpoonControl _harpoonControl;
     [SerializeField] private Laser _laser;
 
+    private FixedJoint _fixed;
     private Vector3 _initialPosition;
     private Vector3 _targetPosition;
     private Fish _hookedObject;
@@ -17,6 +18,7 @@ public class Hook : MonoBehaviour
 
     private void Start()
     {
+        _fixed = GetComponent<FixedJoint>();
         _isMoving = false;
         _isReturning = false;
         _returnTimer = 0f;
@@ -61,6 +63,7 @@ public class Hook : MonoBehaviour
 
         if (lerpProgress >= 1f)
         {
+            _fixed.connectedBody = null;
             _harpoonControl.UnlockMovement();
             _laser.OnRenderer();
             _isReturning = false;
@@ -85,8 +88,9 @@ public class Hook : MonoBehaviour
             _targetPosition = transform.position;
             _isMoving = false;
             _isReturning = true;
-            _trappedFish.StartMoving(_initialPosition, _returnTime, _returnTimer);
             _trappedFish.gameObject.GetComponent<Collider>().enabled = false;
+            _fixed.connectedBody = _trappedFish.GetComponent<Rigidbody>();
+            _trappedFish.CheckPosition(_initialPosition, _returnTime, _returnTimer);
         }
     }
 

@@ -31,7 +31,6 @@ public class TrappedFish : MonoBehaviour
         {
             _returnTimer += Time.deltaTime;
             float lerpProgress = _returnTimer / _returnTime;
-            transform.position = Vector3.Lerp(_targetPosition, _finishPosition, lerpProgress);
 
             if (lerpProgress >= _lerpLimit && !_isLevelChange)
             {
@@ -41,7 +40,7 @@ public class TrappedFish : MonoBehaviour
         }
     }
 
-    public void StartMoving(Vector3 finishPosition, float returnTime, float returnTimer)
+    public void CheckPosition(Vector3 finishPosition, float returnTime, float returnTimer)
     {
         _fishMover.enabled = false;
         _isMoving = true;
