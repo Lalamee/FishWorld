@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78c85950-de79-4dc1-af2d-825fbb78a9b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roach/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Prefabs/Fish1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Fish/Scripts/TrappedFish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Prefabs/Hook.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Hook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Hook/Scripts/Hook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
       <workItem from="1689342771299" duration="2433000" />
       <workItem from="1689346178856" duration="596000" />
       <workItem from="1689508751179" duration="638000" />
-      <workItem from="1689588760083" duration="1639000" />
+      <workItem from="1689588760083" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="Add scripts">
       <created>1689241887479</created>
