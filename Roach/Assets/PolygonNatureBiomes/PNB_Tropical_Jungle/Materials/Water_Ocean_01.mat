@@ -174,7 +174,7 @@ Material:
     - _Opacity: 0.75
     - _OpacityFalloff: 9.39
     - _OpacityMin: 0.32
-    - _OverallFalloff: 2.61
+    - _OverallFalloff: 10
     - _Parallax: 0.02
     - _ReflectionPower: 1
     - _RippleSpeed: 0.1
